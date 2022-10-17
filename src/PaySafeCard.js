@@ -16,7 +16,7 @@ class PaySafeCard {
     }
 
     if(options.environment == 'PRODUCTION') {
-      this.host = "https://api.paysafecard.com/v1/";
+      this.host = "https://api.paysafecard.com/v1";
     } else {
       this.host = "https://apitest.paysafecard.com/v1";
     }
